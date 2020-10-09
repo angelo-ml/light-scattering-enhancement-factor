@@ -3,7 +3,7 @@ Computation of light scattering enhancement factor for a given relative humidity
 
 ## Repository Files
 - lsef: Computation of light scattering enhancement factor for a given relative humidity (RH) and the atmospheric particles' properties.
-- mie_abcd: Computes a vector of Mie-coefficients an, bn, for n=1 to nmax
+- mie_coeffs: Computes a vector of Mie-coefficients an, bn, for n=1 to nmax
 - Qsca: Computation of Mie scattering for given complex refractive-index ratio m=m'+im" and size parameter x=k0*a, where k0= wave number in ambient medium, a=sphere radius
 
 ## lsef parameters:
@@ -42,4 +42,5 @@ grid on
 xlabel('Relative Humidity (RH)')
 ylabel('Light Scattering Enhancement Factor')
 ```
+
 ![lsef output](https://anjelo.ml/github-images/light-scattering-enhancement-factor/lsef.png)
