@@ -42,4 +42,4 @@ grid on
 xlabel('Relative Humidity (RH)')
 ylabel('Light Scattering Enhancement Factor')
 ```
-![lsef output](https://imagehost.imageupload.net/2020/04/23/lsef.png)
+![lsef output](https://anjelo.ml/github-images/light-scattering-enhancement-factor/lsef.png)
